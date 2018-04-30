@@ -13,6 +13,7 @@ public class mainGame {
 		
 		System.out.println("-------The Adventures of Barren Moore-------");
 		System.out.println("___Enter 'Start' to begin or '?' for help___");
+		System.out.println("__________'Options' for settings____________");
 		
 		Scanner playerInput = new Scanner(System.in);
 		String textEntered = playerInput.nextLine();

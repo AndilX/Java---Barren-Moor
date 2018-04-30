@@ -42,6 +42,11 @@ public class player{
 						String textEntered2 = playerInput.nextLine();
 						this.begin(textEntered2);
 						break;
+			
+			case "Options": System.out.println("________________Options_____________________");
+							System.out.println("Opt1. Enter map size dimension (from 5 - 50):");
+				
+				
 			// error handling cases
 				//case "":    System.out.println("___Enter 'Start' to begin or '?' for help___");
 		}
