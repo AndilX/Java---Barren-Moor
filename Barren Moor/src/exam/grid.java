@@ -43,7 +43,6 @@ public class grid{
 					// rows
 					for (int j = 0; j<gridMap[i].length; j++) {
 						
-						
 						if(i==1 & j ==7) {
 							gridMap[i][j]=7; // 7 as position in the array to place the treasure
 							

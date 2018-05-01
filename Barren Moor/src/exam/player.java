@@ -45,8 +45,15 @@ public class player{
 			
 			case "Options": System.out.println("________________Options_____________________");
 							System.out.println("Opt1. Enter map size dimension (from 5 - 50):");
+							String textEntered3 = playerInput.nextLine();
+							this.begin(textEntered3);
+							break;
 				
-				
+			default:	    System.out.println("...not a valid input...");
+							String textEntered4 = playerInput.nextLine();
+							this.begin(textEntered4);
+							break;
+	
 			// error handling cases
 				//case "":    System.out.println("___Enter 'Start' to begin or '?' for help___");
 		}
@@ -110,7 +117,11 @@ public class player{
 							break;
 			
 			case "reset": 	objectCompass.setPlayerLoc(4, 0); //fixed position of player for debug
-			
+		
+							break;
+			default:	    System.out.println("...not a valid input...");
+							String textEntered9 = playerInput.nextLine();
+							this.start(textEntered9,x,y);
 							break;
 			//default: 		throw new Exception("Invalid word") TODO add error handling in case user enter wrong words
 							
