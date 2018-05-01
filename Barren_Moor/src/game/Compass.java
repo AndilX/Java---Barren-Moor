@@ -1,6 +1,6 @@
-package exam;
+package game;
 
-public class compass {
+public class Compass {
 	
 	//TODO compass class to randomise locations
 	

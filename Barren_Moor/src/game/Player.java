@@ -1,14 +1,16 @@
-package exam;
+package game;
 
 import java.util.Scanner;
 
+import game.Compass;
+import game.Grid;
 
-public class player{
+public class Player {
 	
-	compass objectCompass = new compass();  // might not be needed
+	Compass objectCompass = new Compass();  // might not be needed
 	
 	Scanner playerInput = new Scanner(System.in);
-	grid mapGrid = new grid(); 
+	Grid mapGrid = new Grid(); 
 	
 	public void begin(String text){
 		
@@ -158,7 +160,5 @@ public class player{
 		}
 		
 	}
-	
-
 
 }

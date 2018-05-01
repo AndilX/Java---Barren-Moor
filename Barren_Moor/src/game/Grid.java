@@ -1,10 +1,12 @@
-package exam;
+package game;
 
-public class grid{
+import game.Compass;
+
+public class Grid {
 	
-	int [][] gridMap = new int [10][10]; //map size TODO: ask user to enter size and randomise treasure location
+int [][] gridMap = new int [10][10]; //map size TODO: ask user to enter size and randomise treasure location
 	
-	compass object = new compass();
+	Compass object = new Compass();
 	
 	public void create() {
 		
@@ -60,7 +62,5 @@ public class grid{
 	}
 	
 	//TODO add update method you show movement of the player on the grid
-	
-	
 
 }

@@ -1,14 +1,17 @@
-package exam;
+package game;
 
 import java.util.Scanner;
 
-public class mainGame {
+import game.Player;
+
+public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		//creating player object at the start
-		player ref = new player();
+		Player ref = new Player();
 		//grid map = new grid(); 
 		
 		System.out.println("-------The Adventures of Barren Moore-------");
@@ -21,8 +24,7 @@ public class mainGame {
 		//map.create();
 		ref.begin(textEntered);
 		
-		
 
 	}
-	
+
 }
